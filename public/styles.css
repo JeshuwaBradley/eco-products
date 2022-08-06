@@ -1,0 +1,63 @@
+.carousel-inner .carousel-item img {
+	height: 80vh;
+	object-fit: cover;
+}
+
+.carousel-container {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.carousel-container:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background-image: url("images/egle-sidaraviciute-pv-2hRmoJRU-unsplash.jpg");
+	background-position: 50% 50%;
+	object-fit: scale-down;
+}
+
+.testimonial-heading,
+.testomonial-carousel {
+	position: relative;
+}
+
+.testomonial-carousel .testomonial {
+	height: 50vh;
+	width: 100%;
+}
+
+.testomonial p {
+	width: 50%;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+	/* background-color: #000; */
+}
+
+.icon {
+	width: 65px;
+	height: 65px;
+	margin-bottom: 20px;
+	fill: #727274;
+}
+
+.testimonial-heading {
+	display: inline-block;
+}
+
+.testimonial-header {
+	color: #727274;
+}
+
+span > .testimonial-header {
+	/* width: 100%; */
+	border-bottom: 2px solid black;
+}
