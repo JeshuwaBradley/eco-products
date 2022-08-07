@@ -1,6 +1,7 @@
 import React from "react";
 
 const Footer = () => {
+	const date = new Date().getFullYear();
 	return (
 		<footer className="bg-dark text-center text-white ">
 			<div className="container p-4">
@@ -48,7 +49,7 @@ const Footer = () => {
 						<i className="fab fa-github"></i>
 					</a>
 				</section>
-				<section className="">
+				{/* <section className="">
 					<form action="">
 						<div className="row d-flex justify-content-center">
 							<div className="col-auto">
@@ -76,7 +77,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</form>
-				</section>
+				</section> */}
 				<section className="mb-4">
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -85,7 +86,7 @@ const Footer = () => {
 						harum corrupti dicta, aliquam sequi voluptate quas.
 					</p>
 				</section>
-				<section className="">
+				{/* <section className="">
 					<div className="row">
 						<div className="col-lg-3 col-md-6 mb-4 mb-md-0">
 							<h5 className="text-uppercase">Links</h5>
@@ -172,16 +173,19 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</div>
 
 			<div
 				className="text-center p-3"
 				style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
 			>
-				© 2020 Copyright:
-				<a className="text-white" href="https://mdbootstrap.com/">
-					MDBootstrap.com
+				© {date} Copyright:{" "}
+				<a
+					className="text-white"
+					href="https://portfolio-bradley.herokuapp.com"
+				>
+					Jeshuwa Bradley
 				</a>
 			</div>
 		</footer>

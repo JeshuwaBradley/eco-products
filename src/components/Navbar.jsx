@@ -7,7 +7,11 @@ const Navbar = () => {
 			<nav className="navbar navbar-expand-lg bg-light navbar-light p-4 px-5">
 				<div className="container-fluid">
 					<Link className="navbar-brand" to="/">
-						Eco Products
+						<img
+							src="images/logo.png"
+							className="navbar-logo"
+							alt=""
+						/>
 					</Link>
 					<button
 						className="navbar-toggler"
@@ -49,14 +53,14 @@ const Navbar = () => {
 							</li>
 						</ul>
 
-						<form className="w-auto px-2">
+						{/* <form className="w-auto px-2">
 							<input
 								type="search"
 								className="form-control"
 								placeholder="Search"
 								aria-label="Search"
 							/>
-						</form>
+						</form> */}
 					</div>
 				</div>
 			</nav>

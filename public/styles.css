@@ -1,3 +1,17 @@
+.navbar-logo {
+	height: 70px;
+	width: 200px;
+	margin-left: 50px;
+}
+
+@media screen and (max-width: 992px) {
+	.navbar-logo {
+		height: 50px;
+		width: 110px;
+		margin-left: 0px;
+	}
+}
+
 .carousel-inner .carousel-item img {
 	height: 80vh;
 	object-fit: cover;
@@ -23,6 +37,16 @@
 	object-fit: scale-down;
 }
 
+.aboutUs-text {
+	text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+	.aboutUs-text {
+		text-align: center;
+	}
+}
+
 .testimonial-heading,
 .testomonial-carousel {
 	position: relative;
@@ -37,10 +61,10 @@
 	width: 50%;
 }
 
-.carousel-control-prev span,
+/* .carousel-control-prev span,
 .carousel-control-next span {
-	/* background-color: #000; */
-}
+	 background-color: #000; 
+} */
 
 .icon {
 	width: 65px;
@@ -49,15 +73,68 @@
 	fill: #727274;
 }
 
-.testimonial-heading {
-	display: inline-block;
-}
-
 .testimonial-header {
 	color: #727274;
 }
 
-span > .testimonial-header {
-	/* width: 100%; */
-	border-bottom: 2px solid black;
+.aboutUs-container {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: auto auto auto;
+	/* padding: 10px; */
+	width: 90%;
+	margin: 0 auto;
 }
+
+.aboutUs-container > span {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0;
+	/* padding: 70px; */
+	background-color: coral;
+	height: 250px;
+}
+
+.aboutUs-container > span > img {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.aboutUs-container > span:nth-child(2) {
+	margin-top: 75px;
+}
+
+.aboutUs-container > span:nth-child(3) {
+	margin-top: 150px;
+}
+/* 
+
+.aboutUs-container span{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px 0;
+    padding: 70px;
+}
+
+.aboutUs-container span:nth-of-type(1){
+    grid-area: 1 / 1 / span 6 / span 6;
+	background-image: url('images/daria-dyachenko-D-TI9Zww3O0-unsplash.jpg');
+	background-position: 0% 100%;
+	width: 100%;
+	height: 100%;
+	object-fit: ; 
+
+}
+
+.aboutUs-container span:nth-of-type(2){
+    grid-area: 7 / 1 / span 1 / span 2;
+}
+
+.aboutUs-container span:nth-of-type(3){
+    grid-area: 7 / 3 / span 1 / span 2;
+}
+
+.aboutUs-container span:nth-of-type(4){
+    grid-area: 8 / 1 / span 2 / span 4;
+}
+
+.aboutUs-container span:nth-of-type(5){
+    grid-area: 7 / 5 / span 3 / span 2;
+} */
