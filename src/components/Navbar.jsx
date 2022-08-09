@@ -16,13 +16,13 @@ const Navbar = () => {
 					<button
 						className="navbar-toggler"
 						type="button"
-						data-mdb-toggle="collapse"
-						data-mdb-target="/navbarSupportedContent"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
 						aria-controls="navbarSupportedContent"
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<i className="fa fa-bars"></i>
+						<span className="navbar-toggler-icon"></span>
 					</button>
 
 					<div
@@ -30,15 +30,15 @@ const Navbar = () => {
 						id="navbarSupportedContent"
 					>
 						<ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-						<ul className="navbar-nav d-flex flex-row me-1">
+						<ul className="navbar-nav  me-1">
 							<li className="nav-item me-3 me-lg-0 px-2">
 								<Link className="nav-link" to="/">
-									Blog
+									Home
 								</Link>
 							</li>
 							<li className="nav-item me-3 me-lg-0 px-2">
-								<Link className="nav-link" to="/">
-									Services
+								<Link className="nav-link" to="/products">
+									Products
 								</Link>
 							</li>
 							<li className="nav-item me-3 me-lg-0 px-2">

@@ -138,3 +138,12 @@
 .aboutUs-container span:nth-of-type(5){
     grid-area: 7 / 5 / span 3 / span 2;
 } */
+
+/* PAGE IMAGE
+-------------------------------------------- */
+
+.main-image {
+	height: 300px;
+	width: auto;
+	object-fit: cover;
+}

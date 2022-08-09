@@ -6,6 +6,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/products' element={<Products />} />
         </Routes>
       </BrowserRouter>
     </div>
