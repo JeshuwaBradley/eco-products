@@ -147,3 +147,34 @@
 	width: auto;
 	object-fit: cover;
 }
+
+/* ITEM CARD
+---------------------------------------------*/
+
+.card {
+	box-shadow: 1px 1px 2px rgb(91, 89, 89);
+	border-radius: 10px;
+}
+
+.card-body {
+	/* color: rgb(23, 22, 22); */
+}
+
+.card-footer {
+	/* background: #171717; */
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+.card-header {
+	border-radius: 10px !important;
+	border: 0px;
+}
+
+.card-header img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	object-position: center;
+	height: 250px;
+	object-fit: cover;
+}
